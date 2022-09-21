@@ -1,0 +1,30 @@
+.Player{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2.22rem;      
+}
+
+iframe{
+    height: 200px;
+    border-radius: 12px;   
+}
+
+.PlayerButton {
+    cursor: pointer;
+    width: 8.11rem;
+    padding: .77rem 0;
+    border-radius: 54px;
+    background-color: #010c3f;
+    text-align: center;
+    font-size: .833rem;
+    transition: background-color .25s;
+    border: 0px;
+    color: #fff;
+    font-weight: 500;
+    margin-top: .77rem
+  }
+
+.PlayerButton:hover {
+    background-color: rgba(108, 65, 233, .7);
+}
